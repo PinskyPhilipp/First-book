@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo"><a href="index.html"><img src="img/logo.jpg" alt="logo"></a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <!-- форма обратной связи -->
+        <fieldset>
+            <form action="#">
+                <label>
+                    Имя <input type="text" placeholder="ваше имя" name="username" required>
+                </label>
+                <br>
+                <label>
+                    Телефон<input id="1" type="tel" name="phone-number" placeholder="+79251234567" required></label>
+                <br><br>
+                <label for="" class="sex">
+                    Ваш пол <br>М<input type="radio" name="sex" value="male" checked>
+                    Ж<input type="radio" name="sex" value="female">
+                </label>
+                <br><br>
+                <label for="">
+                    <textarea name="comment" placeholder="Добавьте сюда свой комментарий" cols="28" rows="5" required></textarea>
+                </label>
+                <br><br>
+                <label><input type="checkbox">Обратный звонок</label>
+                <input type="time" name="game-time">
+                <input type="date" name="birthday">
+
+                <br><br>
+                <label>Ваш email<input type="email" name="email-address" placeholder="email@yandex.ru"></label>
+                <br><br>
+                <input type="submit" value="Отправить">
+                <input type="reset" value="Сбросить">
+            </form>
+        </fieldset>
+        <br><br>
+        <ul>
+            <li>Связаться с нами можно по номеру :<b>+7925123456</b></li>
+            <li>Наш email :<b>email@yandex.ru</b></li>
+            <li>Наш адрес: <b>Пятницкое шоссе, владение 18</b></li>
+        </ul>
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Adb76743fcc3f0594a420a8d2d549adac555ccaed0617668d7ebccc2e231dc7a7&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+        <!--Подвал сайта-->
+        <hr>
+        <div class="footer">&copy;Все права защищены!</div>
+    </div>
+</body>
+</html>
